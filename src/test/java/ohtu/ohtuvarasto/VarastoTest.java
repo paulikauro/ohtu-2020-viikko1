@@ -115,10 +115,8 @@ public class VarastoTest {
         assertEquals(5, varasto.otaVarastosta(10), vertailuTarkkuus);
     }
 
-
     @Test
     public void toStringToimii() {
         assertTrue(varasto.toString().contains("0"));
     }
-
 }
